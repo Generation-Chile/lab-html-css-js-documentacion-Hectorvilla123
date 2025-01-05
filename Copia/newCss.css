@@ -1,0 +1,83 @@
+/* En este archivo se dan los estilos de las letras, colores, color de fondo, etc. de todo lo que aparecerá en la página web, y que fue codificado en el archivo HTML. */
+
+body { 
+  font-family: Arial, sans-serif; /* Define el estilo de las letras (fuente) de la página, además de eliminar márgenes y rellenos predeterminados. */
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center; /* Centra el contenido del encabezado horizontalmente. */
+  padding: 50px 0; /* Agrega espacio superior e inferior al encabezado. */
+  background-image: url('https://res.cloudinary.com/dh6ipg8bj/image/upload/v1735820476/Purple_and_White_Modern_Computer_Class_Google_Classroom_Header_ziwi71.png'); /* Define una imagen como fondo del encabezado. */
+  background-size: cover; /* Ajusta el tamaño del fondo para cubrir el área del encabezado sin distorsión. */
+  background-position: top; /* Posiciona la imagen en la parte superior del encabezado. */
+  color: #fff; /* Define el color del texto como blanco. */
+  height: 40vh; /* Define la altura del encabezado como el 40% de la altura de la ventana. */
+  overflow: hidden; /* Oculta cualquier contenido que exceda los límites del encabezado. */
+}
+
+#cta h1 {
+  font-size: 4em; /* Establece un tamaño grande para el título principal (¡Full Stack Developers!). */
+  margin: 0; /* Elimina márgenes alrededor del texto. */
+  margin-top: 10px; /* Agrega un pequeño espacio superior al texto. */
+  text-shadow: 2px 2px 2px #00000072; /* Aplica una sombra al texto para mejorar la legibilidad. */
+}
+
+#cta h1 span {
+  color: #007bff; /* Cambia el color de la palabra developers en la seccion a un azul. */
+}
+
+section {
+  padding: 50px 20px; /* Agrega espacio interno alrededor de las secciones. */
+  text-align: center; /* Centra el texto en las secciones. */
+}
+
+button {
+  padding: 10px 20px; /* Define el espacio interno de los botones. */
+  font-size: 1em; /* Ajusta el tamaño del texto en los botones. */
+  background-color: #007bff; /* Establece un fondo azul para los botones. */
+  color: #fff; /* Define el color del texto de los botones como blanco. */
+  border: none; /* Elimina cualquier borde del botón. */
+  cursor: pointer; /* Cambia el cursor a una mano al pasar sobre el botón. */
+}
+
+section#form {
+  background-color: #6abae2b4; /* Aplica un fondo azul claro con transparencia para la sección del formulario. */
+}
+
+form {
+  margin: 0 auto; /* Centra el formulario horizontalmente. */
+  max-width: 350px; /* Limita el ancho máximo del formulario. */
+  text-align: left; /* Alinea el texto del formulario a la izquierda. */
+  margin-bottom: 100px; /* Agrega un espacio inferior al formulario. */
+}
+
+form label {
+  display: block; /* Coloca las etiquetas de formulario en su propia línea. */
+  margin-bottom: 5px; /* Agrega un pequeño espacio debajo de las etiquetas. */
+}
+
+form input,
+form textarea {
+  width: 100%; /* Hace que los campos de entrada ocupen todo el ancho del contenedor. */
+  padding: 10px; /* Agrega espacio interno a los campos de entrada. */
+  margin-bottom: 10px; /* Agrega espacio entre los campos. */
+  border: 1px solid #ccc; /* Define un borde gris claro alrededor de los campos. */
+  border-radius: 5px; /* Redondea ligeramente las esquinas de los campos. */
+}
+
+form button {
+  width: 50%; /* Establece el ancho del botón en la mitad del contenedor. */
+  margin-left: 25%; /* Centra el botón horizontalmente. */
+}
+
+footer {
+  text-align: center; /* Centra el contenido del pie de página. */
+  background-color: #333; /* Establece un fondo oscuro para el pie de página. */
+  color: #fff; /* Define el color del texto como blanco. */
+  padding: 20px 0; /* Agrega espacio interno en la parte superior e inferior. */
+  position: fixed; /* Fija el pie de página en la parte inferior de la ventana. */
+  bottom: 0; /* Coloca el pie de página en la parte inferior de la página. */
+  width: 100%; /* Hace que el pie de página abarque todo el ancho de la ventana. */
+}
